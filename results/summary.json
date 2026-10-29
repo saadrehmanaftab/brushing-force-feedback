@@ -1,0 +1,21 @@
+{
+  "raw threshold": {
+    "episodes": 268,
+    "detected": 268,
+    "detection_pct": 100.0,
+    "latency_median_ms": 5.0,
+    "latency_p95_ms": 10.0,
+    "false_alarms": 149,
+    "false_alarms_per_min": 1.86
+  },
+  "filter, hysteresis, debounce": {
+    "episodes": 268,
+    "detected": 268,
+    "detection_pct": 100.0,
+    "latency_median_ms": 281.0,
+    "latency_p95_ms": 331.0,
+    "false_alarms": 0,
+    "false_alarms_per_min": 0.0
+  },
+  "test_minutes": 80.0
+}

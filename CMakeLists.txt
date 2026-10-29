@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+project(pressure_feedback CXX)
+set(CMAKE_CXX_STANDARD 17)
+add_compile_options(-Wall -Wextra -Werror -O2 -fno-exceptions)
+add_executable(pf_host firmware/host_main.cpp firmware/pressure_monitor.cpp)
